@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageVersion>1.0.2.2</PackageVersion>
+        <Title>LiteDB.Identity.Async</Title>
+        <Authors>Devin Spitz</Authors>
+        <Description>Uses the LiteDB.Identity and combines it with LiteDB.async</Description>
+        <PackageProjectUrl>https://github.com/devinSpitz/LiteDB.Identity.Async</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/devinSpitz/LiteDB.Identity.Async</RepositoryUrl>
+        <PackageTags>Identity, LiteDB, AspNetCore, LiteDB Identity, AspNetCore Identity, Membership, Async</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LiteDB.Async" Version="0.0.11" />
+      <PackageReference Include="LiteDB.Identity" Version="1.0.3" />
+    </ItemGroup>
+
+</Project>
