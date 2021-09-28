@@ -9,6 +9,8 @@
         <PackageProjectUrl>https://github.com/devinSpitz/LiteDB.Identity.Async</PackageProjectUrl>
         <RepositoryUrl>https://github.com/devinSpitz/LiteDB.Identity.Async</RepositoryUrl>
         <PackageTags>Identity, LiteDB, AspNetCore, LiteDB Identity, AspNetCore Identity, Membership, Async</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>

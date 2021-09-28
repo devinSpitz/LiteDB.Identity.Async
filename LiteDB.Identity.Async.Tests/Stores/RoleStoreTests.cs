@@ -20,6 +20,22 @@ namespace LiteDB.Identity.Async.Tests.Stores
             services.Build();
         }
 
+        [Fact()]
+        public void CreateAsyncTestTwo()
+        {
+            //Arrange
+            var manager = services.GetRoleManager();
+            LiteDbRole newRole = SetUpRole(manager);
+            
+            
+            LiteDbRole newRole2 = SetUpRole(services.GetRoleManager(),"2");
+            //Act
+            var roles = manager.Roles.ToList();
+            //Assert
+            roles.Should().NotBeNull();
+            roles.Count.Should().Be(2);
+            
+        }
 
         [Fact()]
         public void TestQueryable()

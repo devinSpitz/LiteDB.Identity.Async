@@ -18,6 +18,21 @@ namespace LiteDB.Identity.Async.Tests.Stores
 
         
         [Fact()]
+        public void CreateAsyncTestTwo()
+        {
+            //Arrange
+            var manager = services.GetUserManager();
+            LiteDbUser newUser = SetUpUser(manager);
+            LiteDbUser newUser2 = SetUpUser(services.GetUserManager(),"2","2@de.de");
+            //Act
+            var users = manager.Users.ToList();
+            //Assert
+            users.Should().NotBeNull();
+            users.Count.Should().Be(2);
+            
+        } 
+        
+        [Fact()]
         public void TestQueryable()
         {
             //Arrange
