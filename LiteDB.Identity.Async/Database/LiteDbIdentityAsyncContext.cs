@@ -4,7 +4,7 @@ using LiteDB.Identity.Database;
 
 namespace LiteDB.Identity.Async.Database
 {
-    public sealed class LiteDbIdentityAsyncContext : ILiteDbIdentityAsyncContext, IDisposable
+    public class LiteDbIdentityAsyncContext : ILiteDbIdentityAsyncContext, IDisposable
     {
         private readonly LiteDatabaseAsync liteDatabaseAsync;
         public LiteDbIdentityAsyncContext(string connectionStringName)
