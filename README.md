@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/devinSpitz/LiteDB.Identity.Async/tree/main.svg?style=shield)](https://circleci.com/gh/devinSpitz/LiteDB.Identity.Async/tree/main)
+[![CodeFactor](https://www.codefactor.io/repository/github/devinspitz/litedb.identity.async/badge)](https://www.codefactor.io/repository/github/devinspitz/litedb.identity.async)
+
 LiteDB.Identity.Async
 ======= 
 I only added the async wrapper and adapted everything to it.  
