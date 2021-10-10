@@ -29,6 +29,8 @@ jobs:
           name: Run tests
           command: |
             ls -axl
+            zip mocks.zip Mocks
+            ls -axl
             dotnet test
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
