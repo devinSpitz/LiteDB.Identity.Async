@@ -28,6 +28,7 @@ jobs:
           working_directory: ~/project/LiteDB.Identity.Async.Tests/
           name: Run tests
           command: |
+            apt update
             apt install -y zip
             zip -r mocks.zip Mocks/
             ls -axl
