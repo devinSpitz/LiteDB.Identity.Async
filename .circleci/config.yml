@@ -29,7 +29,7 @@ jobs:
           name: Run tests
           command: |
             apt install -y zip
-            zip -r mocks.zip Mocks
+            zip -r mocks Mocks
             ls -axl
             dotnet test
 # Invoke jobs via workflows
