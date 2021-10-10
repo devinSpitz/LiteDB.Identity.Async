@@ -28,7 +28,7 @@ jobs:
           working_directory: ~/project/LiteDB.Identity.Async.Tests/
           name: Run tests
           command: |
-            ls -axl
+            apt install -y zip
             zip mocks.zip Mocks
             ls -axl
             dotnet test
