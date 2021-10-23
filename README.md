@@ -1,6 +1,7 @@
 [![CircleCI](https://circleci.com/gh/devinSpitz/LiteDB.Identity.Async/tree/main.svg?style=shield)](https://circleci.com/gh/devinSpitz/LiteDB.Identity.Async/tree/main)
 [![CodeFactor](https://www.codefactor.io/repository/github/devinspitz/litedb.identity.async/badge)](https://www.codefactor.io/repository/github/devinspitz/litedb.identity.async)
 [![NuGet stable version](https://badgen.net/nuget/v/LiteDB.Identity.Async)](https://nuget.org/packages/LiteDB.Identity.Async)
+[![Discord](https://badgen.net/discord/members/G5VpbgdYey)](http://dc.spitzen.solutions)
 
 LiteDB.Identity.Async
 ======= 
